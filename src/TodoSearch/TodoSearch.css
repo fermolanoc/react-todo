@@ -1,0 +1,17 @@
+input {
+  background-color: whitesmoke;
+  color: darkorchid;
+  padding: 1rem 2rem;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  border: none;
+  outline: 2px solid whitesmoke;
+  outline-offset: 2px;
+  width: 400px;
+  caret-color: darkorchid;
+}
+
+input::placeholder {
+  color: rgba(153, 50, 204, 0.6);
+}
